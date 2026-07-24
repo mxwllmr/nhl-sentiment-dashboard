@@ -26,8 +26,7 @@ from datetime import datetime
 from pathlib import Path
 import re
 
-from data_loader import load_players, load_teams, get_player
-from roster_scraper import TEAMS_BY_ABBR as NHL_TEAMS
+from data_loader import load_players, load_teams, get_player, NHL_TEAMS
 
 # Page config
 st.set_page_config(
