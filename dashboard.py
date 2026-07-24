@@ -25,6 +25,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 import re
+import plotly.express as px
 
 from data_loader import load_players, load_teams, get_player, NHL_TEAMS
 
@@ -415,8 +416,6 @@ def main():
                     st.dataframe(team_df, use_container_width=True, hide_index=True, height=400)
                 
                 with col2:
-                    import plotly.express as px
-                    
                     fig = px.bar(
                         team_sentiment[:10],
                         x='avg_sentiment',
