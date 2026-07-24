@@ -25,7 +25,6 @@ import json
 from datetime import datetime
 from pathlib import Path
 import re
-import plotly.express as px
 
 from data_loader import load_players, load_teams, get_player, NHL_TEAMS
 
@@ -416,17 +415,12 @@ def main():
                     st.dataframe(team_df, use_container_width=True, hide_index=True, height=400)
                 
                 with col2:
-                    fig = px.bar(
-                        team_sentiment[:10],
-                        x='avg_sentiment',
-                        y='team_abbr',
-                        orientation='h',
-                        color='avg_sentiment',
-                        color_continuous_scale=['#ef4444', '#eab308', '#22c55e'],
-                        title='Top 10 Teams by Sentiment'
-                    )
-                    fig.update_layout(height=400, showlegend=False)
-                    st.plotly_chart(fig, use_container_width=True)
+                    # Simple bar chart using streamlit
+                    chart_data = pd.DataFrame({
+                        'Team': [t['team_abbr'] for t in team_sentiment[:10]],
+                        'Sentiment': [t['avg_sentiment'] for t in team_sentiment[:10]]
+                    })
+                    st.bar_chart(chart_data.set_index('Team'))
             else:
                 st.info("Not enough data to calculate team sentiment.")
         
