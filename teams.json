@@ -1,0 +1,258 @@
+{
+  "ANA": {
+    "name": "Anaheim Ducks",
+    "full_name": "Anaheim Ducks",
+    "abbr": "ANA",
+    "subreddit": "AnaheimDucks",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "CGY": {
+    "name": "Calgary Flames",
+    "full_name": "Calgary Flames",
+    "abbr": "CGY",
+    "subreddit": "CalgaryFlames",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "EDM": {
+    "name": "Edmonton Oilers",
+    "full_name": "Edmonton Oilers",
+    "abbr": "EDM",
+    "subreddit": "EdmontonOilers",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "LAK": {
+    "name": "Los Angeles Kings",
+    "full_name": "Los Angeles Kings",
+    "abbr": "LAK",
+    "subreddit": "losangeleskings",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "SJS": {
+    "name": "San Jose Sharks",
+    "full_name": "San Jose Sharks",
+    "abbr": "SJS",
+    "subreddit": "SanJoseSharks",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "SEA": {
+    "name": "Seattle Kraken",
+    "full_name": "Seattle Kraken",
+    "abbr": "SEA",
+    "subreddit": "SeattleKraken",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "VAN": {
+    "name": "Vancouver Canucks",
+    "full_name": "Vancouver Canucks",
+    "abbr": "VAN",
+    "subreddit": "canucks",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "VGK": {
+    "name": "Vegas Golden Knights",
+    "full_name": "Vegas Golden Knights",
+    "abbr": "VGK",
+    "subreddit": "goldenknights",
+    "conference": "Western",
+    "division": "Pacific"
+  },
+  "CHI": {
+    "name": "Chicago Blackhawks",
+    "full_name": "Chicago Blackhawks",
+    "abbr": "CHI",
+    "subreddit": "hawks",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "COL": {
+    "name": "Colorado Avalanche",
+    "full_name": "Colorado Avalanche",
+    "abbr": "COL",
+    "subreddit": "ColoradoAvalanche",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "DAL": {
+    "name": "Dallas Stars",
+    "full_name": "Dallas Stars",
+    "abbr": "DAL",
+    "subreddit": "DallasStars",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "MIN": {
+    "name": "Minnesota Wild",
+    "full_name": "Minnesota Wild",
+    "abbr": "MIN",
+    "subreddit": "wildhockey",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "NSH": {
+    "name": "Nashville Predators",
+    "full_name": "Nashville Predators",
+    "abbr": "NSH",
+    "subreddit": "Predators",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "STL": {
+    "name": "St. Louis Blues",
+    "full_name": "St. Louis Blues",
+    "abbr": "STL",
+    "subreddit": "stlouisblues",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "UTA": {
+    "name": "Utah Hockey Club",
+    "full_name": "Utah Hockey Club",
+    "abbr": "UTA",
+    "subreddit": "UtahHockeyClub",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "WPG": {
+    "name": "Winnipeg Jets",
+    "full_name": "Winnipeg Jets",
+    "abbr": "WPG",
+    "subreddit": "winnipegjets",
+    "conference": "Western",
+    "division": "Central"
+  },
+  "BOS": {
+    "name": "Boston Bruins",
+    "full_name": "Boston Bruins",
+    "abbr": "BOS",
+    "subreddit": "BostonBruins",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "BUF": {
+    "name": "Buffalo Sabres",
+    "full_name": "Buffalo Sabres",
+    "abbr": "BUF",
+    "subreddit": "sabres",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "DET": {
+    "name": "Detroit Red Wings",
+    "full_name": "Detroit Red Wings",
+    "abbr": "DET",
+    "subreddit": "DetroitRedWings",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "FLA": {
+    "name": "Florida Panthers",
+    "full_name": "Florida Panthers",
+    "abbr": "FLA",
+    "subreddit": "FloridaPanthers",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "MTL": {
+    "name": "Montreal Canadiens",
+    "full_name": "Montreal Canadiens",
+    "abbr": "MTL",
+    "subreddit": "Habs",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "OTT": {
+    "name": "Ottawa Senators",
+    "full_name": "Ottawa Senators",
+    "abbr": "OTT",
+    "subreddit": "OttawaSenators",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "TBL": {
+    "name": "Tampa Bay Lightning",
+    "full_name": "Tampa Bay Lightning",
+    "abbr": "TBL",
+    "subreddit": "TampaBayLightning",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "TOR": {
+    "name": "Toronto Maple Leafs",
+    "full_name": "Toronto Maple Leafs",
+    "abbr": "TOR",
+    "subreddit": "leafs",
+    "conference": "Eastern",
+    "division": "Atlantic"
+  },
+  "CAR": {
+    "name": "Carolina Hurricanes",
+    "full_name": "Carolina Hurricanes",
+    "abbr": "CAR",
+    "subreddit": "canes",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "CBJ": {
+    "name": "Columbus Blue Jackets",
+    "full_name": "Columbus Blue Jackets",
+    "abbr": "CBJ",
+    "subreddit": "BlueJackets",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "NJD": {
+    "name": "New Jersey Devils",
+    "full_name": "New Jersey Devils",
+    "abbr": "NJD",
+    "subreddit": "devils",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "NYI": {
+    "name": "New York Islanders",
+    "full_name": "New York Islanders",
+    "abbr": "NYI",
+    "subreddit": "NewYorkIslanders",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "NYR": {
+    "name": "New York Rangers",
+    "full_name": "New York Rangers",
+    "abbr": "NYR",
+    "subreddit": "rangers",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "PHI": {
+    "name": "Philadelphia Flyers",
+    "full_name": "Philadelphia Flyers",
+    "abbr": "PHI",
+    "subreddit": "Flyers",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "PIT": {
+    "name": "Pittsburgh Penguins",
+    "full_name": "Pittsburgh Penguins",
+    "abbr": "PIT",
+    "subreddit": "penguins",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  },
+  "WSH": {
+    "name": "Washington Capitals",
+    "full_name": "Washington Capitals",
+    "abbr": "WSH",
+    "subreddit": "caps",
+    "conference": "Eastern",
+    "division": "Metropolitan"
+  }
+}
