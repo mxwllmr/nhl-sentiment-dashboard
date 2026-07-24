@@ -398,29 +398,18 @@ def main():
             team_sentiment = calculate_team_sentiment(results, players)
             
             if team_sentiment:
-                col1, col2 = st.columns([2, 1])
+                team_df = pd.DataFrame([{
+                    "#": i + 1,
+                    "Team": t['team_name'],
+                    "Abbr": t['team_abbr'],
+                    "Sentiment": f"{t['avg_sentiment']:+.2f}",
+                    "": get_sentiment_emoji(t['avg_sentiment']),
+                    "Players": t['player_count'],
+                    "Comments": t['total_comments'],
+                    "Conference": t['conference']
+                } for i, t in enumerate(team_sentiment)])
                 
-                with col1:
-                    team_df = pd.DataFrame([{
-                        "#": i + 1,
-                        "Team": t['team_name'],
-                        "Abbr": t['team_abbr'],
-                        "Sentiment": f"{t['avg_sentiment']:+.2f}",
-                        "": get_sentiment_emoji(t['avg_sentiment']),
-                        "Players": t['player_count'],
-                        "Comments": t['total_comments'],
-                        "Conference": t['conference']
-                    } for i, t in enumerate(team_sentiment)])
-                    
-                    st.dataframe(team_df, use_container_width=True, hide_index=True, height=400)
-                
-                with col2:
-                    # Simple bar chart using streamlit
-                    chart_data = pd.DataFrame({
-                        'Team': [t['team_abbr'] for t in team_sentiment[:10]],
-                        'Sentiment': [t['avg_sentiment'] for t in team_sentiment[:10]]
-                    })
-                    st.bar_chart(chart_data.set_index('Team'))
+                st.dataframe(team_df, use_container_width=True, hide_index=True, height=400)
             else:
                 st.info("Not enough data to calculate team sentiment.")
         
